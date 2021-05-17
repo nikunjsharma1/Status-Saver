@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Splash"
+    android:background="#F3F1E8"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/h1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_marginTop="200dp"
+        android:text="@string/app_name"
+
+        android:src="@drawable/w"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="@dimen/_30sdp"/>
+
+    <TextView
+        android:id="@+id/h2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_gravity="right"
+        android:gravity="end"
+        android:layout_marginTop="5dp"
+       android:layout_marginRight="@dimen/_100sdp"
+        android:text="By Nikunj"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+      />
+</LinearLayout>

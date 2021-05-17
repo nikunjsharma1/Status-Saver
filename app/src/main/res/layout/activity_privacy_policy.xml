@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.PrivacyPolicy"
+    android:background="@drawable/back">
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/black"
+    android:id="@+id/privacy"
+    android:text="Privacy Policy"
+    android:layout_margin="10dp"
+    android:textStyle="bold"
+    android:textSize="24dp"
+
+    />
+    <TextView
+        android:id="@+id/policy_view"
+        android:layout_below="@+id/privacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_marginVertical="@dimen/_6sdp"
+        android:layout_marginTop="20dp"
+        android:text="@string/nikunj_sharma_built_the_status_saver_app_as_an_ad_supported_app_this_service_is_provided_by_nikunj_sharma_at_no_cost_and_is_intended_for_use_as_is_this_page_is_used_to_inform_visitors_regarding_my_policies_with_the_collection_use_and_disclosure_of_personal_information_if_anyone_decided_to_use_my_service_if_you_choose_to_use_my_service_then_you_agree_to_the_collection_and_use_of_information_in_relation_to_this_policy_the_personal_information_that_i_collect_is_used_for_providing_and_improving_the_service_i_will_not_use_or_share_your_information_with_anyone_except_as_described_in_this_privacy_policy_the_terms_used_in_this_privacy_policy_have_the_same_meanings_as_in_our_terms_and_conditions_which_is_accessible_at_status_saver_unless_otherwise_defined_in_this_privacy_policy"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+
+
+</RelativeLayout>

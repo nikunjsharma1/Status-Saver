@@ -15,3 +15,4 @@ App Features:
 
 # Screenshot
 
+<img src="Screen_1.png" width="48">

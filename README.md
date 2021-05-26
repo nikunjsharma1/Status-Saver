@@ -15,4 +15,4 @@ App Features:
 
 # Screenshot
 
-<img src="screen_1.png" width="78"> <img src="screen_2.png" width="78"> <img src="screen_3.png" width="78"> <img src="screen_4.png" width="78"> <img src="screen_5.png" width="78">
+<img src="screen_1.png" width="178"> <img src="screen_2.png" width="178"> <img src="screen_3.png" width="178"> <img src="screen_4.png" width="178"> <img src="screen_5.png" width="178">

@@ -40,7 +40,7 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SavedAdapter extends RecyclerView.Adapter<ItemViewHolder> {
+public class SavedAdapter extends RecyclerView.Adapter<ItemViewHolder> {   //Class SavedAdapter is never used so how to use it. Can you elaborate it?
     private final List<Status> imagesList;
     private Context context;
     private RewardedAd rewardedAd;
